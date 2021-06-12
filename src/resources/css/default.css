@@ -1,0 +1,150 @@
+
+/*************************
+    General
+*************************/
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #666666;
+}
+
+a:focus,
+.btn:focus {
+    text-decoration: none;
+    outline: none;
+}
+a:focus,
+a:hover {
+    color: #f26667;
+    text-decoration: none;
+}
+a,
+button,
+input {
+    outline: medium none;
+    color: #333333;
+}
+.uppercase { 
+    text-transform: uppercase
+}
+.capitalize { 
+    text-transform: capitalize
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {   
+margin-top: 0px;
+font-style: normal;
+margin: 0;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a { 
+    color: inherit 
+}
+h1 {
+    font-size: 35px;
+    font-weight: 500;
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 28px;
+}
+h4 {
+    font-size: 22px;
+}
+h5 {
+    font-size: 18px;
+}
+h6 {
+    font-size: 16px;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+li { list-style: none}
+p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 0;
+}
+hr{
+    margin: 60px 0;
+    padding: 0px;
+    border-bottom: 1px solid #eceff8;
+    border-top: 0px;
+}
+*::-moz-selection {
+    background: #0162bd;
+    color: #fff;
+    text-shadow: none;
+}
+::-moz-selection {
+    background: #0162bd;
+    color: #fff;
+    text-shadow: none;
+}
+::selection {
+    background: #0162bd;
+    color: #fff;
+    text-shadow: none;
+}
+
+/*.main .container > .row > [class^="col-"] {
+    padding-right: 0;
+}
+.main .container > .main-top > .row > [class^="col-"] {
+    padding-left: 0;
+    padding-right: 0;
+}
+.main-slider .container > .row > [class^="col-"] {
+    padding-left: 0;
+    padding-right: 0;
+}*/
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }

@@ -1,0 +1,1172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Kanon Aptek</title>
+  <link rel="stylesheet" href="resources/css/font-awesome.min.css">
+  <link rel="stylesheet" href="resources/css/bootstrap.css">
+  <link rel="stylesheet" href="resources/css/style.css">
+  <link rel="stylesheet" href="resources/css/order-tab.css">
+  <link rel="stylesheet" href="resources/css/menu.css">
+  <link rel="stylesheet" href="resources/css/default.css">
+  <link rel="stylesheet" href="resources/css/responsive.css">
+</head>
+<body>
+<!--HEADER TOP-->
+  <nav class="navbar navbar-expand-md navbar-light bg-light navbar-top">
+    <div class="container">
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+
+        <ul class="navbar-nav hide-mobil">
+            <li class="nav-item px-2">
+                <a href="index.html" class="nav-link">Ana səhifə</a>
+            </li>
+            <li class="nav-item px-2">
+                <a href="#" class="nav-link">Kataloq</a>
+            </li>
+            <li class="nav-item px-2">
+                <a href="#" class="nav-link">Xəbərlər</a>
+            </li>
+            <li class="nav-item px-2">
+                <a href="#" class="nav-link">Haqqımızda</a>
+            </li>
+            <li class="nav-item px-2">
+                <a href="#" class="nav-link">Faydalı Məlumatlar</a>
+            </li>
+            <li class="nav-item px-2">
+                <a href="#" class="nav-link">Sifariş qaydası</a>
+            </li>
+            <li class="nav-item px-2">
+                <a href="#" class="nav-link">Əlaqə</a>
+            </li>
+        </ul>
+
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="login.html" class="nav-link" data-toggle="modal" data-target="#addUserModal">
+              <i class="fa fa-user"></i> Şəxsi kabinetə gir
+            </a>
+          </li>
+          <li class="nav-item dropdown mr-3">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+              <i class="fa fa-globe"></i> Diller
+            </a>
+            <div class="dropdown-menu">
+              <a href="#" class="dropdown-item">
+                 Aze
+              </a>
+              <a href="#" class="dropdown-item">
+                 Eng
+              </a>
+              <a href="#" class="dropdown-item">
+                 Ru
+              </a>
+
+            </div>
+          </li>
+        </ul>
+
+    </div>
+  </nav>
+  <!--MOBILE MENU START-->
+  <header class="mobile-nav d-md-none navbar-light py-2">
+    <div class="container">
+      <div class="row">
+        <div class="col-9">
+          <ul class="navbar-nav  d-flex flex-row">
+            <li class="nav-item">
+              <a href="login.html" class="nav-link" data-toggle="modal" data-target="#addUserModal">
+                <i class="fa fa-user"></i> Şəxsi kabinetə gir
+              </a>
+            </li>
+            <li class="mobil-lang ml-3">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                <i class="fa fa-globe"></i> Diller
+              </a>
+              <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">
+                   Aze
+                </a>
+                <a href="#" class="dropdown-item">
+                   Eng
+                </a>
+                <a href="#" class="dropdown-item">
+                   Ru
+                </a>
+            </div>
+            </li>
+          <ul>
+        </div>
+        <div class="col-12 d-lg-none">
+            <div class="mobile-menu"></div>
+        </div>
+
+      </div>
+
+    </div>
+    
+  </header>
+  
+  <div class="d-none d-xs-block">
+    <div class="container">
+        <div class="row">
+          <div class="col-xl-12 col-lg-12">
+            <div class="main-menu">
+                <nav id="mobile-menu">
+                  <ul>
+                    <li class="mega-menu">
+                      <a href="index.html">MƏHSULLAR</a>
+                      <ul class="submenu">
+                        <li><a href="index.html">YENİ MƏHSULLAR</a></li>
+                        <li><a href="index.html">Endirimli məhsullar</a></li>
+                        <li><a href="index.html">ƏN ÇOX BAXILAN</a></li>
+                        <li><a href="index.html">Endirimli məhsullar</a></li>
+                        <li><a href="index.html">Tənəffüs sistemi</a></li>
+                        <li><a href="index.html">Ağrı</a></li>
+                        <li><a href="index.html">Endirimli məhsullar</a></li>
+                      </ul>
+                    </li>
+                    <li class="mega-menu">
+                      <a href="index.html">Home</a>
+                      <ul class="submenu">
+                        <li><a href="index.html">Home Page 1</a></li>
+                        <li><a href="index.html">Home Page 1</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <!--MOBILE MENU END-->
+
+  <!--HEADER MAIN-->
+  <header class="main-hader py-2">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-3 col-md-3">
+                  <a href="index.html" class="navbar-brand"><img src="resources/img/logo.png" class="img-fluid" alt=""></a>
+              </div>
+              <div class="col-lg-5 col-md-5">
+                  <form action="#" class="header-searchbox">
+                    <input type="text" placeholder="Axtar ...">
+                    <select class="select-searchcategory">
+                      <option selected>Kataloq</option>
+                      <optgroup label="- Ağrı">
+                          <option value="2">Spazmolitik</option>
+                          <option value="3">Əzələ ağrıları</option>
+                          <option value="4">Analgetik və antipiretik</option>
+                          <option value="4">Antipiretik təsir</option>
+                      </optgroup>
+                      <optgroup label="- Dieta">
+                          <option value="2">Arıqlamaq üçün vasitələr</option>
+                      </optgroup>
+                      <optgroup label="- Qadın xəstəlikləri">
+                          <option value="2">İltihabi xəstəliklər</option>
+                          <option value="3">Kandidoz</option>
+                          <option value="4">Klimaks</option>
+                      </optgroup>
+                    </select>
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                  </form>
+              </div>
+              <div class="col-lg-4 col-md-4">
+                <ul class="d-flex flex-row navbar-nav ml-auto clearfix">
+                    <li class="align-self-start nav-item">
+                        <div class="hotline-sport d-flex flex-row">
+                          <div class="align-self-start">
+                             <i class="fa fa-phone"></i>
+                          </div>
+                          <div class="align-self-end">
+                              <h6>*7700</h6>
+                          </div>
+                      </div>
+                    </li>
+                    <li class="align-self-end ml-auto card-shoping">
+                       <div class="bag">
+                          <a href="#" class="nav-link dropdown" data-toggle="dropdown">
+                            <div class="icon"><i class="fa fa-shopping-cart"></i></div>
+                            <div class="num">2</div>
+                            <p>Sәbәtim</p>
+                          </a>
+                          <div class="dropdown-menu dropdown-menu-right" >
+                             <div class="card-list">
+
+                                <div class="card card-into d-flex flex-row">
+                                    <img class="card-img" src="resources/img/card-img.png">
+                                    <ul class="d-flex flex-row p-0">
+                                      <li class="">
+                                          <a href="#">Bombiks</a>
+                                          <i>1.00 x</i>
+                                          <b>20 AZN</b>
+                                      </li>
+                                      <li class="ml-auto align-self-center">
+                                        <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+                                      </li>
+                                    </ul>
+                                </div>
+
+                                <div class="card card-into d-flex flex-row">
+                                    <img class="card-img" src="resources/img/card-img.png">
+                                    <ul class="d-flex flex-row p-0">
+                                      <li class="">
+                                          <a href="#">Bombiks</a>
+                                          <i>1.00 x</i>
+                                          <b>20 AZN</b>
+                                      </li>
+                                      <li class="ml-auto align-self-center">
+                                        <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+                                      </li>
+                                    </ul>
+                                </div>
+
+                                <div class="card card-into d-flex flex-row">
+                                    <ul class="d-flex flex-row p-0">
+                                      <li class="">
+                                          <a href="#">Sәbәtdә</a>
+                                          <i>Malı göster mәblәğindә </i>
+                                          <b>20 AZN</b>
+                                      </li>
+                                    </ul>
+                                </div>
+                                
+                                <form class="d-flex flex-row btn-card">
+                                  <a href="#" class="btn btn-success rounded-10"> <i class="fa fa-check"></i> Sifarişi rәsimlәşdir</a>
+                                  <a href="#" class="btn btn-success rounded-10 ml-auto"> <i class="fa fa-shopping-cart"></i> Sәbәtә keç</a>
+                                </form>
+
+                             </div>
+                          </div>
+                      </div>
+                    </li>
+                </ul>
+              </div>
+        </div>
+      </div>
+  </header>
+
+  <!--Profil Vertical Tab-->
+  <header class="container">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb bg-light">
+          <li class="breadcrumb-item"><a href="#">Ana Səhifə</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Şəxsi Kabinet</li>
+        </ol>
+      </nav>
+  </header><!--End breadcrumb-->
+
+  <section class="tabs-profil container my-4 bg-white">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-12 mb-4">
+          <ul class="nav nav-tabs flex-column nav-pills border-bottom-0" id="myTab" role="tablist" >
+            <li class="nav-item">
+              <a class="nav-link active" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="true">Əlaqə Məlumatı</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="order-tab" data-toggle="tab" href="#order" role="tab" aria-controls="order" aria-selected="false">Mənim Sifarişlərim</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="address-tab" data-toggle="tab" href="#address" role="tab" aria-controls="address" aria-selected="false">Catdırılma ünvanları</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="favorite-tab" data-toggle="tab" href="#favorite" role="tab" aria-controls="favorite" aria-selected="false">İstediklərimin siyahısı</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="share-tab" data-toggle="tab" href="#share" role="tab" aria-controls="share" aria-selected="false">Paylaşmalara abuna olmaq</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="bonus-tab" data-toggle="tab" href="#bonus" role="tab" aria-controls="bonus" aria-selected="false">Bonus</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-12">
+          <div class="tab-content">
+              <div class="tab-pane active" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                  <section class="pills-contact-one">
+                      <form action="#">
+                          <h4>Əlaqə məlumatları</h4>
+                          <div class="form-group row mt-3">
+                              <label for="" class="col-md-2 d-flex flex-row align-self-center">Foto :</label>
+                              <div class="col-md-10">
+                                <label class="label">
+                                  <i class="fa fa-image"></i>
+                                  <span class="image-title">Foto yukle</span>
+                                  <input type="file" class="form-control-file" >
+                                </label>
+                              </div>
+                          </div>
+                          <div class="form-group row">
+                              <label class="col-sm-2 col-form-label col-form-label-sm">Ad :</label>
+                              <div class="col-sm-10">
+                                <input type="text" class="form-control form-control-sm w-50" placeholder="Adiniz">
+                              </div>
+                          </div>
+                          <div class="form-group row">
+                              <label class="col-sm-2 col-form-label col-form-label-sm">Soyad :</label>
+                              <div class="col-sm-10">
+                                <input type="text" class="form-control form-control-sm w-50" placeholder="Soyadiniz">
+                              </div>
+                          </div>
+                          <div class="form-group row">
+                              <label class="col-sm-2 col-form-label col-form-label-sm">Email :</label>
+                              <div class="col-sm-10">
+                                <input type="email" class="form-control form-control-sm w-50" placeholder="E-mail">
+                              </div>
+                          </div>
+                          <div class="form-group row">
+                              <label class="col-sm-2 col-form-label col-form-label-sm">Telefon:</label>
+                              <div class="col-sm-10">
+                                <input type="tel" class="form-control form-control-sm w-50" placeholder="(xx) - xxx - xx -xx">
+                              </div>
+                          </div>
+                          <div class="form-group row">
+                              <label class="col-sm-2 col-form-label col-form-label-sm">Cins:</label>
+                              <div class="col-sm-10">
+                                  <div class="form-check form-check-inline mr-3">
+                                      <label class="form-check-label"><input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                        Kishi
+                                      </label>
+                                  </div>
+                                  <div class="form-check form-check-inline">
+                                      <label class="form-check-label"><input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                        Qadin
+                                      </label>
+                                  </div>
+                              </div>
+                          </div>
+                          <h4 class="mb-2">Sifre</h4>
+                          <div class="form-group row">
+                              <label class="col-sm-2 col-form-label col-form-label-sm">Yeni Şifrə:</label>
+                              <div class="col-sm-10">
+                                <input type="password" class="form-control form-control-sm w-50" placeholder="Şifrə">
+                              </div>
+                          </div>
+                          <div class="form-group row">
+                              <label class="col-sm-2 col-form-label col-form-label-sm">Tesdiq edin:</label>
+                              <div class="col-sm-10">
+                                  <input type="password" class="form-control form-control-sm w-50" placeholder="Şifrəni tesdiq edin">
+                              </div>
+                          </div>
+                          <div class="form-group row">
+                              <label class="col-sm-2 col-form-label col-form-label-sm">Saytin dili:</label>
+                              <div class="col-sm-10">
+                                  <div class="form-check form-check-inline mr-3">
+                                      <label class="form-check-label"><input class="form-check-input" type="radio" name="lang" id="lang1" value="lang1" checked>
+                                        Azərbaycan dili
+                                      </label>
+                                  </div>
+                                  <div class="form-check form-check-inline">
+                                      <label class="form-check-label"><input class="form-check-input" type="radio" name="lang" id="lang2" value="lang2">
+                                        Rus dili
+                                      </label>
+                                  </div>
+                              </div>
+                          </div>
+  
+                          <button type="submit" class="btn bg-success text-white my-4">Yadda saxla</button>
+                      </form>
+                  </section>
+              </div><!--end div /*Əlaqə Məlumatı*/-->
+              <div class="tab-pane" id="order" role="tabpanel" aria-labelledby="order-tab">
+                  <div id="tabs2">
+                    <div class="tabInto whiteborder">Cari sifarişlər</div>
+                    <div class="tabInto">İcra olunmuş sifarişlər</div>
+                    <div class="tabInto">Sifarişlərin arxivi</div>
+
+
+                    <div class="tabContent">
+                        <table class="table table-light mt-2 table-responsive">
+                            <thead class="bg-light">
+                              <tr>
+                                <th scope="col">Sifariş № <span>30294</span></th>
+                                <th scope="col"><small>02.01.2019</small></th>
+                                <th scope="col"><small><strong>Carı status : </strong> Yeni Sifariş </small></th>
+                                <th scope="col"><small><ins><a href="#">Sifariş haqqında daha ətraflı</a></ins></small></th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row" >
+                                  <ul>
+                                    <li><small> <strong>Ödəniş üsulu: </strong> Nəğd Ödəniş</small></li>
+                                    <li><small> <strong>Çatırılma:</strong> Özünüz götürsəniz</small></li>
+                                  </ul>
+                                </th>
+                                <td colspan="4">
+                                  <button type="button" class="btn btn-danger float-right" data-toggle="modal" data-target="#giveUp">
+                                      Sifarişdən İmtina
+                                    </button>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td colspan="4" class="bg-light">
+                                    <div class="cart-table table-responsive">
+                                        <table class="table table-bordered">
+                                          <thead>
+                                            <tr>
+                                              <th scope="col">Dermanin adi</th>
+                                              <th scope="col">Say</th>
+                                              <th scope="col">Qiymәt</th>
+                                              <th scope="col">Dәyәri</th>
+                                              <th scope="col">Bonuslar</th>
+                                            </tr>
+                                          </thead>
+                                          <tbody>
+                                            <tr>
+                                              <td class="pro-thumbnail">
+                                                <ul class="cart-img d-flex flex-row justify-content-center align-items-center">
+                                                  <li>
+                                                      <a href="#" class="d-flex mr-2">
+                                                        <img src="resources/img/card-product.png" alt="" class="img-fluid">
+                                                      </a>
+                                                  </li>
+                                                  <li>
+                                                    <h6>LİNOLEN KREM</h6>
+                                                    <div class="item-code-text">
+                                                        Malın kodu <span class="item-code">00001020431</span>
+                                                    </div>
+                                                  </li>
+                                                </ul>
+                                              </td>
+                                              <td>
+                                               x1
+                                              </td>
+                                              <td>
+                                                <div class="price">
+                                                      <span>
+                                                        45 <span class="price-symbol">₼</span>
+                                                      </span>
+                                                </div>
+                                              </td>
+                                              <td>
+                                                <div class="price">
+                                                  <span>
+                                                    45 <span class="price-symbol">₼</span>
+                                                  </span>
+                                                </div>
+                                              </td>
+                                              <td>
+                                                
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                    </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="bg-light" colspan="4">
+                                    <div class="cart-page-total d-flex flex-row float-right mr-3">
+                                        <h5 class="mr-2">Cәmi:</h5>
+                                        <ul>
+                                          <li class="h5">
+                                              45 <span class="price-symbol">₼</span> 
+                                          </li>
+                                        </ul>
+                                    </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                            
+                        </table>
+                    </div>
+                    <div class="tabContent">
+                        <table class="table table-light mt-2 table-responsive">
+                            <thead class="bg-light">
+                              <tr>
+                                <th scope="col">Sifariş № <span>30294</span></th>
+                                <th scope="col"><small>02.01.2019</small></th>
+                                <th scope="col"><small><strong>Carı status : </strong> Yeni Sifariş </small></th>
+                                <th scope="col"><small><ins><a href="#">Sifariş haqqında daha ətraflı</a></ins></small></th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row" >
+                                  <ul>
+                                    <li><small> <strong>Ödəniş üsulu: </strong> Nəğd Ödəniş</small></li>
+                                    <li><small> <strong>Çatırılma:</strong> Özünüz götürsəniz</small></li>
+                                  </ul>
+                                </th>
+                                <td colspan="4">
+                                  <button type="button" class="btn btn-danger float-right" data-toggle="modal" data-target="#giveUp">
+                                      Sifarişdən İmtina
+                                    </button>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td colspan="4" class="bg-light">
+                                    <div class="cart-table table-responsive">
+                                        <table class="table table-bordered">
+                                          <thead>
+                                            <tr>
+                                              <th scope="col">Dermanin adi</th>
+                                              <th scope="col">Say</th>
+                                              <th scope="col">Qiymәt</th>
+                                              <th scope="col">Dәyәri</th>
+                                              <th scope="col">Bonuslar</th>
+                                            </tr>
+                                          </thead>
+                                          <tbody>
+                                            <tr>
+                                              <td class="pro-thumbnail">
+                                                <ul class="cart-img d-flex flex-row justify-content-center align-items-center">
+                                                  <li>
+                                                      <a href="#" class="d-flex mr-2">
+                                                        <img src="resources/img/card-product.png" alt="" class="img-fluid">
+                                                      </a>
+                                                  </li>
+                                                  <li>
+                                                    <h6>LİNOLEN KREM</h6>
+                                                    <div class="item-code-text">
+                                                        Malın kodu <span class="item-code">00001020431</span>
+                                                    </div>
+                                                  </li>
+                                                </ul>
+                                              </td>
+                                              <td>
+                                               x1
+                                              </td>
+                                              <td>
+                                                <div class="price">
+                                                      <span>
+                                                        45 <span class="price-symbol">₼</span>
+                                                      </span>
+                                                </div>
+                                              </td>
+                                              <td>
+                                                <div class="price">
+                                                  <span>
+                                                    45 <span class="price-symbol">₼</span>
+                                                  </span>
+                                                </div>
+                                              </td>
+                                              <td>
+                                                
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                    </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="bg-light" colspan="4">
+                                    <div class="cart-page-total d-flex flex-row float-right mr-3">
+                                        <h5 class="mr-2">Cәmi:</h5>
+                                        <ul>
+                                          <li class="h5">
+                                              45 <span class="price-symbol">₼</span> 
+                                          </li>
+                                        </ul>
+                                    </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                            
+                        </table>
+                    </div>
+                    <div class="tabContent">
+                        <table class="table table-light mt-2 table-responsive">
+                            <thead class="bg-light">
+                              <tr>
+                                <th scope="col">Sifariş № <span>30294</span></th>
+                                <th scope="col"><small>02.01.2019</small></th>
+                                <th scope="col"><small><strong>Carı status : </strong> Yeni Sifariş </small></th>
+                                <th scope="col"><small><ins><a href="#">Sifariş haqqında daha ətraflı</a></ins></small></th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row" >
+                                  <ul>
+                                    <li><small> <strong>Ödəniş üsulu: </strong> Nəğd Ödəniş</small></li>
+                                    <li><small> <strong>Çatırılma:</strong> Özünüz götürsəniz</small></li>
+                                  </ul>
+                                </th>
+                                <td colspan="4">
+                                  <button type="button" class="btn btn-danger float-right" data-toggle="modal" data-target="#giveUp">
+                                      Sifarişdən İmtina
+                                    </button>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td colspan="4" class="bg-light">
+                                    <div class="cart-table table-responsive">
+                                        <table class="table table-bordered">
+                                          <thead>
+                                            <tr>
+                                              <th scope="col">Dermanin adi</th>
+                                              <th scope="col">Say</th>
+                                              <th scope="col">Qiymәt</th>
+                                              <th scope="col">Dәyәri</th>
+                                              <th scope="col">Bonuslar</th>
+                                            </tr>
+                                          </thead>
+                                          <tbody>
+                                            <tr>
+                                              <td class="pro-thumbnail">
+                                                <ul class="cart-img d-flex flex-row justify-content-center align-items-center">
+                                                  <li>
+                                                      <a href="#" class="d-flex mr-2">
+                                                        <img src="resources/img/card-product.png" alt="" class="img-fluid">
+                                                      </a>
+                                                  </li>
+                                                  <li>
+                                                    <h6>LİNOLEN KREM</h6>
+                                                    <div class="item-code-text">
+                                                        Malın kodu <span class="item-code">00001020431</span>
+                                                    </div>
+                                                  </li>
+                                                </ul>
+                                              </td>
+                                              <td>
+                                               x1
+                                              </td>
+                                              <td>
+                                                <div class="price">
+                                                      <span>
+                                                        45 <span class="price-symbol">₼</span>
+                                                      </span>
+                                                </div>
+                                              </td>
+                                              <td>
+                                                <div class="price">
+                                                  <span>
+                                                    45 <span class="price-symbol">₼</span>
+                                                  </span>
+                                                </div>
+                                              </td>
+                                              <td>
+                                                
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                    </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="bg-light" colspan="4">
+                                    <div class="cart-page-total d-flex flex-row float-right mr-3">
+                                        <h5 class="mr-2">Cәmi:</h5>
+                                        <ul>
+                                          <li class="h5">
+                                              45 <span class="price-symbol">₼</span> 
+                                          </li>
+                                        </ul>
+                                    </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                            
+                        </table>
+                    </div>
+                  </div>
+              </div><!--end div /*Sifarişlər*/-->
+              <div class="tab-pane" id="address" role="tabpanel" aria-labelledby="address-tab">
+                
+                  <div class="card" style="width: 18rem; cursor:pointer;" data-toggle="modal" data-target="#add-address">
+                      <div class="card-body p-5 mx-auto">
+                          <span class="d-block rounded-circle site-color mx-auto d-flex align-items-center justify-content-center" style="width:50px; height:50px;">
+                              <i class="fa fa-plus text-white "></i>
+                          </span>
+                          <p class="font-weight-normal mt-2" id="exampleModalLabel">Ünvan Elavə Et</p>
+                      </div>
+                  </div>
+
+              </div><!--end div /*Catdırılma ünvanları*/-->
+              <div class="tab-pane" id="favorite" role="tabpanel" aria-labelledby="favorite-tab">
+                  <button type="button" class="btn site-color btn-md px-4" data-toggle="modal" data-target="#new-group"><i class="fa fa-plus text-white mr-3"></i> Yeni qurup yarad</button>
+              </div><!--end div /*İstediklərimin siyahısı*/-->
+              <div class="tab-pane" id="share" role="tabpanel" aria-labelledby="share-tab">
+                  <header class="bg-light p-3 text-dark mb-2">
+                      <h6 class="color-head">Paylaşım ayarlari</h6>
+                  </header>
+                  <ul class="p-4 border-dotted color-head mb-5">
+                    <li class="d-flex align-items-center">
+                      <i class="fa fa-envelope color-font mr-2" style="font-size:30px;"></i>
+                      <div>
+                        <p class="color-head">Ən Sərfəli təklif,aksiya və endirimlər haqqında ilk olaraq Siz öyrenin.Hec bir spam olmadan</p>
+                      </div>
+                    </li>
+                  </ul>
+                  <form class="w-75">
+                    <div class="form-group row">
+                      <label class="col-sm-4 col-form-label">Ad</label>
+                      <div class="col-sm-6">
+                        <input type="text" class="form-control" id="name" placeholder="Adınız">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <label class="col-sm-4 col-form-label">Email</label>
+                      <div class="col-sm-6">
+                        <input type="email" class="form-control" id="email" placeholder="Enter email">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <label class="col-sm-4 col-form-label">Doğum tarixi </label>
+                      <div class="col-sm-6">
+                          <input type="date" class="form-control" id="date" placeholder="Doğum tarixi">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <label class="col-sm-4 col-form-label">Üstünlük dili </label>
+                      <div class="col-sm-6">
+                          
+                        <div class="form-check">
+                         
+                          <label class="form-check-label">
+                              <input class="form-check-input" type="radio" name="lang" id="aze" value="option1" checked>
+                              Azərbaycan
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <label class="form-check-label">
+                            <input class="form-check-input" type="radio" name="lang" id="ru" value="option2">
+                            Rus
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-form-label">Hansi mövzu sizə maraqlıdır</label>
+                        <div class="col-sm-6">
+                            
+                          <div class="form-check">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="checkbox" name="sale" id="sale" checked>
+                                20%- dən cox endirimli mallar
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="checkbox" name="sale" id="sale">
+                                Ən son yenilikler
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="checkbox" name="sale" id="sale">
+                                "Taksit kartlarla 0%" mallar
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="checkbox" name="sale" id="sale" >
+                                Bizim xeber ve saytlar
+                            </label>
+                          </div>
+                          
+                        </div>
+                    </div>
+                    <button type="submit" class="btn site-color text-white my-4">Yadda saxla</button>
+                  </form>
+
+              </div><!--end div /*Paylaşmalara abuna olmaq*/-->
+              <div class="tab-pane" id="bonus" role="tabpanel" aria-labelledby="bonus-tab">
+                  <div class="profil-bonus border color-head bg-light">
+                      <div class="row">
+                        <div class="col-sm-6 border color-head p-5 border-top-0 border-bottom-0 border-left-0">
+                            <h6 class="mb-4">Bonuslarimi goster</h6>
+                            <form action="#">
+                                <div class="form-group row">
+                                    <label class="col-sm-4 col-form-label col-form-label-sm">Kart nömrəsi:</label>
+                                    <div class="col-sm-8">
+                                        <input type="tel" class="form-control form-control-sm" placeholder="(xx) - xxx - xx -xx">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-sm-4 col-form-label col-form-label-sm">Telefon:</label>
+                                    <div class="col-sm-8">
+                                      <input type="tel" class="form-control form-control-sm" placeholder="(xx) - xxx - xx -xx">
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn site-color text-white my-4 px-5">Göstər</button>
+                            </form>
+                        </div>
+                        <div class="col-sm-6 p-5">
+                          <h4 class="text-center mb-4 font-weight-bold text-uppercase text-justify">Bonus</h4>
+                          <p><small>“Bonus Plus” – hər alış-veriş zamanı istifadəçilərinə bonuslar qazandıran proqramdır. Gələcəkdə Siz toplanan bonuslarla bizim və partnyorlarımızın mağazalarında alış zamanı istifadə edə bilərsiz. “Bonus Plus” proqramında iştirak edərkən eksklüziv təkliflər və layihələrdən yararlana bilərsiniz.</small></p>
+                        </div>
+                      </div>
+                  </div>
+              </div><!--end div /*Bonus*/-->
+        </div>
+      </div>
+       <!-- Nav tabs -->
+      
+    
+    <!-- Tab panes -->
+    
+      </div>
+  </section>
+  
+  <!--Profil Vertical Tab-->
+
+      <!--FOOTER-->
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 py-5">
+              <div class="footer-logo">
+                <span>
+                  <a href="#"><img src="resources/img/logo.png" alt=""></a>
+                  <p class="text-muted">SİZ İSTƏNİLƏN TİBBİ TEXNİKA VƏ YA LƏVAZİMATI SİFARİŞ EDƏ BİLƏRSİNİZ.</p>
+                </span>
+                <ul class="footer-online d-flex flex-row mt-3">
+                  <li class="align-self-start mr-2"><img src="resources/img/order.png" alt=""></li>
+                  <li class="align-self-center">
+                    <p class="text-muted">Online Dəstək 24/7</p>
+                    <h2 class="font-weight-bold">*7700</h2>
+                  </li>
+                </ul>
+                <div class="mobil-apps mt-3">
+                  <p>Download Mobile Apps</p>
+                  <ul class="d-flex flex-row">
+                    <li><a href="#"><img src="resources/img/app-story.png" alt=""></a></li>
+                    <li><a href="#"><img src="resources/img/google-play.png" alt=""></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 col-md-8 py-5">
+              <div class="katalog ml-5">
+                <h3 class="title mb-4">Kataloq</h3>
+                <div class="katalog-inner d-flex flex-row">
+                  <ul class="mr-5">
+                     <li><a href="#">Ağrı</a></li>
+                     <li><a href="#">Dieta</a></li>
+                     <li><a href="#">Tənəffüs sistemi xəstəlikləri, Qrip</a></li>
+                     <li><a href="#">Mədə bağırsaq xəstəlikləri</a></li>
+                     <li><a href="#">Sidik cinsiyyət sistemi xəstəlikləri</a></li>
+                     <li><a href="#">Qadın xəstəlikləri</a></li>
+                     <li><a href="#">Hamiləlik</a></li>
+                     <li><a href="#">Sinir sistemi xəstəlikləri</a></li>
+                     <li><a href="#">Allergik xəstəlikləri</a></li>
+                     <li><a href="#">Cərrahiyyə</a></li>
+                     <li><a href="#">Uşaq xəstəlikləri</a></li>
+                  </ul>
+                  <ul class="mr-5">
+                     <li><a href="#">Ağrı</a></li>
+                     <li><a href="#">Dieta</a></li>
+                     <li><a href="#">Tənəffüs sistemi xəstəlikləri, Qrip</a></li>
+                     <li><a href="#">Mədə bağırsaq xəstəlikləri</a></li>
+                     <li><a href="#">Sidik cinsiyyət sistemi xəstəlikləri</a></li>
+                     <li><a href="#">Qadın xəstəlikləri</a></li>
+                     <li><a href="#">Hamiləlik</a></li>
+                     <li><a href="#">Sinir sistemi xəstəlikləri</a></li>
+                     <li><a href="#">Allergik xəstəlikləri</a></li>
+                     <li><a href="#">Cərrahiyyə</a></li>
+                     <li><a href="#">Uşaq xəstəlikləri</a></li>
+                  </ul>
+                  <ul class="mr-5">
+                     <li><a href="#">Ağrı</a></li>
+                     <li><a href="#">Dieta</a></li>
+                     <li><a href="#">Tənəffüs sistemi xəstəlikləri, Qrip</a></li>
+                     <li><a href="#">Mədə bağırsaq xəstəlikləri</a></li>
+                     <li><a href="#">Sidik cinsiyyət sistemi xəstəlikləri</a></li>
+                     <li><a href="#">Qadın xəstəlikləri</a></li>
+                     <li><a href="#">Hamiləlik</a></li>
+                     <li><a href="#">Sinir sistemi xəstəlikləri</a></li>
+                     <li><a href="#">Allergik xəstəlikləri</a></li>
+                     <li><a href="#">Cərrahiyyə</a></li>
+                     <li><a href="#">Uşaq xəstəlikləri</a></li>
+                  </ul>     
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--END FOOTER-->
+      <footer class="footer-bottom border pt-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="copyright text-center">
+                <a href="#">
+                    <img src="resources/img/visa-card.png" alt="">
+                </a>
+              </div>
+              <div class="copyright text-center py-4">
+                <span>Copyright © 2018 <a href="#">Azerimed.</a> All rights reserved.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+  <!--==========================HEADER MODAL==========================-->
+
+  <!--Add User Modal-->
+  <div class="modal fade" id="addUserModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+
+        <div class="modal-header bg-success text-white">
+          <h5>Avtorizasiya</h5>
+          <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+        </div>
+
+        <div class="modal-body">
+          <div class="container">
+            <div class="row">
+              <div class="col-6">
+
+                <p><small><strong>Hesabdan istifadә edərәk giriş</strong></small></p>
+                <form>
+                  <div class="form-group">
+                    <label for="name">Sizin E-mail</label>
+                    <input type="text" class="form-control">
+                  </div>
+                  <div class="form-group">
+                    <label for="name">Yeni şifrə</label>
+                    <input type="password" class="form-control">
+                  </div>
+                  <div class="form-group">
+                    <div class="form-check mb-0">
+                      <input type="checkbox" id="gridCheck">
+                      <label for="gridCheck">Mәni yadda saxla</label>
+                    </div>
+                   <a href="#" class="text-secondary" data-toggle="modal" data-target="#forgot-password" data-dismiss="modal"><small>Şifrəni unutmusunuz?</small></a>
+                  </div>
+
+                  <div class="form-group">
+                    <a href="#" class="btn btn-danger px-5">Giriş</a>
+                    <a href="" class="btn btn-secondary px-5" data-dismiss="modal">Lәğv et</a>
+                  </div>
+                </form>
+              </div>
+              <div class="col-1">
+                <div class="login-divider">
+                  <div class="bar-top"></div>
+                  <span class="login-or">Ve ya</span>
+                  <div class="bar-bottom"></div>
+                </div>
+              </div>
+              <div class="col-5">
+                  <div class="sosial-login">
+                    <p><small><strong>İstifadәçi kimi daxil ol</strong></small></p>
+                    <a href="#" class="btn btn-primary btn-md"><i class="fa fa-facebook"></i> Facebook</a>
+                    <a href="#" class="btn btn-danger btn-md"><i class="fa fa-google"></i> Google Plus</a>
+                  </div>   
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <a href="#" class="text-link mr-auto mx-3" data-toggle="modal" data-target="#userRegister" data-dismiss="modal"><small>Qeydiyyatdan keçmәk</small></a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!--Register Modal-->
+ <div class="modal fade" id="userRegister" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header bg-success text-white">
+          <h5>Qeydiyyat</h5>
+          <button class="close" data-dismiss="modal"><span>&times;</span></button>
+        </div>
+
+        <div class="modal-body">
+          <div class="container">
+            <div class="row">
+              <div class="col-6">
+                <form class="needs-validation" novalidate>
+                  <div class="form-group">
+                    <label for="name">SAA </label>
+                    <input type="text" class="form-control">
+                  </div>
+                  <div class="form-group">
+                    <label for="name">Email </label>
+                    <input type="email" class="form-control">
+                  </div>
+                  <div class="form-group">
+                    <label for="name">Telefon +994 </label>
+                    <input type="text" class="form-control" placeholder="(xx) - xxx - xx -xx">
+                  </div>
+                  <div class="form-group">
+                    <label for="name">Şifrə</label>
+                    <input type="password" class="form-control">
+                  </div>
+                  <div class="form-group">
+                    <a href="" class="btn btn-danger px-5">Qeydiyyat</a>
+                  </div>
+                </form>
+              </div>
+              <div class="col-1">
+                <div class="login-divider">
+                  <div class="bar-top"></div>
+                  <span class="login-or">Ve ya</span>
+                  <div class="bar-bottom"></div>
+                </div>
+              </div>
+              <div class="col-5">
+                  <div class="sosial-login">
+                    <p><small><strong>İstifadәçi kimi daxil ol</strong></small></p>
+                    <a href="#" class="btn btn-primary btn-md"><i class="fa fa-facebook"></i> Facebook</a>
+                    <a href="#" class="btn btn-danger btn-md"><i class="fa fa-google"></i> Google Plus</a>
+                  </div>   
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!--Forgot Password Modal-->
+  <div class="modal fade" id="forgot-password" tabindex="1">
+      <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div class="modal-header bg-success text-white">
+              <h5>Şifrəni yada sal</h5>
+              <button class="close" data-dismiss="modal"><span>&times;</span></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Sizin E-mail</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail adress">
+                  </div>
+                  <div class="form-group">
+                      <a href="#" class="btn btn-danger px-5">Şifrəni al</a>
+                      <a href="" class="btn btn-secondary px-5" data-toggle="modal" data-target="#addUserModal" data-dismiss="modal">Qeriyә</a>
+                  </div>
+              </form>
+            </div>
+        </div>
+      </div>
+  </div>
+  <!--==========================END HEADER MODAL==========================-->
+
+  <!--==========================SIFARISDEN IMTINA MODAL==========================-->
+<div class="modal fade" id="giveUp" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Ləğv etmək istədiyinizə əminsiniz?</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="form-group">
+            <label class="col-form-label">Sifarisin ləğv edilməsi geri qaytarılmir:</label><br>
+            <label class="col-form-label">Sifarisin ləğv edilməsi sebebi:</label>
+            <input type="text" class="form-control" id="#">
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn site-color" data-dismiss="modal">Sifarisi ləğv et</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--==========================#SIFARISDEN IMTINA MODAL==========================-->
+
+  <!--==========================Ünvan Elavə Et MODAL==========================-->
+  <div class="modal fade" id="add-address" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalCenterTitle">Yeni Ünvan Əlavə Et</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+              <form>
+                  <div class="form-group row">
+                    <label class="col-sm-2 col-form-label">Ad</label>
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" id="name" placeholder="Adınız">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label class="col-sm-2 col-form-label">Şəhər</label>
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" id="name" placeholder="Şəhər">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label class="col-sm-2 col-form-label">Küçə</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="name" placeholder="Küçə">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                      <div class="col-sm-6">
+                          <div class="row">
+                             <label class="col-sm-4 col-form-label">Bina</label>
+                             <div class="col-sm-8"><input type="text" class="form-control" id="name" placeholder="Bina"></div>
+                          </div>
+                      </div>
+                      <div class="col-sm-6">
+                          <div class="row">
+                              <label class="col-sm-4 col-form-label">Mənzil</label>
+                              <div class="col-sm-8"><input type="text" class="form-control" id="name" placeholder="Mənzil"></div>
+                           </div>
+                      </div>
+                  </div>
+              </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn site-color btn-sm">Yadda saxla</button>
+            <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Ləğv et</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--==========================#Ünvan Elavə Et MODAL==========================-->
+
+  <!--==========================Yeni qurup yarad MODAL==========================-->
+  <div class="modal fade" id="new-group" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalCenterTitle">Yeni qurup yarad</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+              <form>
+                  <div class="form-group">
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" id="name" placeholder="Yeni qrup">
+                    </div>
+                  </div>
+              </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn site-color btn-sm">Yeni qrup yarat</button>
+            <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Ləğv et</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--==========================#Yeni qurup yarad MODAL==========================-->
+
+
+  <script src="resources/js/jquery.min.js"></script>
+  <script src="resources/js/popper.min.js"></script>
+  <script src="resources/js/bootstrap.min.js"></script>
+  <script src="resources/js/owl.carousel.min.js"></script>
+  <script src="resources/js/jquery.meanmenu.js"></script>
+  <script src="resources/js/scrollUp.min.js"></script>
+  <script src="resources/js/myscript.js"></script>
+  <script src="resources/js/tabs.js"></script>
+</body>
+</html>
